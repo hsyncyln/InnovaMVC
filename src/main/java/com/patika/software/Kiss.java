@@ -37,7 +37,8 @@ public class Kiss {
         try(BufferedReader bufferedReader =
                     new BufferedReader(new FileReader(path))) {
 
-            String numberRow = "", sumRow = "\n";
+            String numberRow = "";
+            String sumRow = "";
 
             while ((numberRow = bufferedReader.readLine()) != null){
                 sumRow += numberRow + "\n";
