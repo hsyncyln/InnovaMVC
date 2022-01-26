@@ -18,7 +18,7 @@ enum RenklerEnum2 {
     @Getter
     private final String renkAdi;
 
-    private RenklerEnum2(int renkId, String renkAdi) {
+    RenklerEnum2(int renkId, String renkAdi) {
         this.renkId = renkId;
         this.renkAdi = renkAdi;
     }
